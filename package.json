@@ -1,0 +1,22 @@
+{
+  "name": "vvip-estate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "gsap": "^3.15.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6"
+  }
+}
