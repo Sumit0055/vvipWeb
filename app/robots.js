@@ -6,6 +6,7 @@ export default function robots() {
       userAgent: "*",
       allow: "/"
     },
-    sitemap: "https://vviprajnagar.example.com/sitemap.xml"
+    sitemap: "https://duttstate.in/sitemap.xml"
   };
 }
+

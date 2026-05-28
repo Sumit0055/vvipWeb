@@ -1,30 +1,28 @@
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://vviprajnagar.example.com"),
+  metadataBase: new URL("https://duttstate.in"),
   title: {
-    default: "VVIP Raj Nagar Brand Launch | Premium Flats in Raj Nagar Extension",
-    template: "%s | VVIP Raj Nagar"
+    default: "VVIP New Project Raj Nagar Extension | Madhuban Bapudham NH-58",
+    template: "%s | VVIP New Project Raj Nagar Extension"
   },
   description:
-    "VVIP Raj Nagar brand launch for premium flats near Raj Nagar Extension, Duhai, NH-24, Noida and Delhi NCR with modern amenities and site visit support.",
+    "VVIP New Project Raj Nagar Extension, Madhuban Bapudham NH-58, near RRTS Duhai Metro Station. 2, 3 and 4 BHK luxury residences with pre-launch offer.",
   keywords: [
-    "VVIP Raj Nagar",
-    "VVIP Raj Nagar Extension",
+    "VVIP New Project Raj Nagar Extension",
+    "VVIP Madhuban Bapudham",
+    "VVIP NH-58 Ghaziabad",
+    "VVIP flats Ghaziabad",
     "Raj Nagar Extension flats",
-    "property in Raj Nagar",
-    "Duhai property",
-    "NH-24 flats",
-    "Noida Delhi NCR property",
-    "Ghaziabad real estate",
-    "premium flats Raj Nagar Extension",
-    "luxury apartments NH-24",
-    "VVIP Raj Nagar launch",
-    "VVIP flats Raj Nagar"
+    "Madhuban Bapudham flats",
+    "RRTS Duhai Metro Station property",
+    "2 BHK Raj Nagar Extension",
+    "3 BHK Raj Nagar Extension",
+    "4 BHK Raj Nagar Extension"
   ],
-  authors: [{ name: "VVIP Raj Nagar" }],
-  creator: "VVIP Raj Nagar",
-  publisher: "VVIP Raj Nagar",
+  authors: [{ name: "DuttState" }],
+  creator: "DuttState",
+  publisher: "DuttState",
   robots: {
     index: true,
     follow: true,
@@ -36,17 +34,17 @@ export const metadata = {
     }
   },
   openGraph: {
-    title: "VVIP Raj Nagar Brand Launch | Premium Flats in Raj Nagar Extension",
+    title: "VVIP New Project Raj Nagar Extension",
     description:
-      "Premium VVIP Raj Nagar brand launch for Raj Nagar Extension, Duhai, NH-24, Noida and Delhi NCR buyers.",
-    url: "https://vviprajnagar.example.com",
-    siteName: "VVIP Raj Nagar",
+      "Premium residences at Madhuban Bapudham NH-58, near RRTS Duhai Metro Station.",
+    url: "https://duttstate.in",
+    siteName: "VVIP New Project Raj Nagar Extension",
     images: [
       {
-        url: "/vvip-launch-flat.svg",
+        url: "/duttstate-launch-flat.svg",
         width: 1600,
         height: 1050,
-        alt: "VVIP Raj Nagar premium real estate project"
+        alt: "VVIP New Project Raj Nagar Extension"
       }
     ],
     locale: "en_IN",
@@ -54,18 +52,28 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "VVIP Raj Nagar Brand Launch | Premium Flats in Raj Nagar Extension",
+    title: "VVIP New Project Raj Nagar Extension",
     description:
-      "VVIP Raj Nagar project near Raj Nagar Extension, Duhai, NH-24, Noida and Delhi NCR."
+      "2, 3 and 4 BHK luxury residences at Madhuban Bapudham NH-58, Ghaziabad."
   },
   alternates: {
-    canonical: "https://vviprajnagar.example.com"
+    canonical: "https://duttstate.in"
+  },
+  other: {
+    "geo.region": "IN-UP",
+    "geo.placename": "Ghaziabad",
+    "geo.position": "28.6692;77.4538",
+    ICBM: "28.6692, 77.4538"
   }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en-IN">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body>{children}</body>
     </html>
   );
