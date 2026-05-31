@@ -21,7 +21,7 @@ const projectImages = [
 const whatsappLink =
   "https://wa.me/919289619386";
 const instagramLink = "https://www.instagram.com/dutt_estate/";
-// const facebookLink = "https://www.facebook.com/duttstate";
+const facebookLink = "https://www.facebook.com/profile.php?id=61590352808268";
 
 const navItems = [
   { label: "Overview", href: "#overview" },
@@ -35,7 +35,7 @@ const highlights = [
   { value: "5 Acre", label: "Approx Project Area" },
   { value: "800", label: "Approx Flats" },
   { value: "G + 30", label: "Tower Heights" },
-  { value: "7000/sq.ft.", label: "Net Effective Rate" }
+  { value: "7500/sq.ft.", label: "Net Effective Rate" }
 ];
 
 const amenities = [
@@ -181,9 +181,9 @@ export default function Home() {
         <a href={instagramLink} target="_blank" rel="noreferrer" aria-label="Open Instagram">
           <InstagramIcon />
         </a>
-        {/* <a href={facebookLink} target="_blank" rel="noreferrer" aria-label="Open Facebook">
-        
-        </a> */}
+        <a href={facebookLink} target="_blank" rel="noreferrer" aria-label="Open Facebook">
+          <FacebookIcon />
+        </a>
       </div>
 
       <section className="hero" id="home">
@@ -229,7 +229,7 @@ export default function Home() {
             <div className="hero-card-foot">
               <div>
                 <span>Starting Offer</span>
-                <strong>7000/sq. ft. + Other Charges + GST</strong>
+                <strong>7500/sq. ft. + Other Charges + GST</strong>
               </div>
               <a href="#contact">Get Details</a>
             </div>
@@ -338,7 +338,7 @@ export default function Home() {
           <p className="eyebrow">Price List</p>
           <h2>Exclusive pre-launch offer with limited units.</h2>
           <p className="section-subcopy">
-            Net Effective Rate: 7000/sq. ft. + Other Charges + GST
+            Net Effective Rate: 7500/sq. ft. + Other Charges + GST
           </p>
         </motion.div>
         <div className="price-table" role="table" aria-label="VVIP New Project price list">
@@ -528,10 +528,10 @@ function InstagramIcon() {
   );
 }
 
-// function FacebookIcon() {
-//   return (
-//     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-//       <path d="M14.2 8.5V6.8c0-.82.55-1.01.94-1.01h2.39V2.13L14.24 2.1c-3.65 0-4.48 2.73-4.48 4.48V8.5H7.47v3.79h2.29V22h4.44v-9.71h3.02l.4-3.79H14.2Z" />
-//     </svg>
-//   );
-// }
+function FacebookIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M14.2 8.5V6.8c0-.82.55-1.01.94-1.01h2.39V2.13L14.24 2.1c-3.65 0-4.48 2.73-4.48 4.48V8.5H7.47v3.79h2.29V22h4.44v-9.71h3.02l.4-3.79H14.2Z" />
+    </svg>
+  );
+}
