@@ -1,4 +1,5 @@
 import "./globals.css";
+// import logo from "../public/logo.jpeg"
 
 export const metadata = {
   metadataBase: new URL("https://duttstate.in"),
@@ -73,6 +74,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* <link rel="icon" type="image/png" href="/logo.jpeg" /> */}
       </head>
       <body>{children}</body>
     </html>
